@@ -1,0 +1,252 @@
+html {
+    padding-left: 20px
+    padding-right: 20px;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 750px;
+    margin: auto;
+}
+
+hr {
+    max-width: 750px;
+}
+
+div {
+    /* my styles */
+}
+
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    overflow: auto;
+    margin: auto;
+    text-align:center;
+    max-width: 750px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    font-size: 23px;
+}
+
+li {
+    display: center;
+    margin: 0px
+}
+
+h4 {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:target{
+    color:orange;
+}
+
+a:link{
+  color:red;
+}
+
+a:visited{
+  color:purple;
+}
+
+a:hover{
+  color:darkblue;
+  text-decoration: inherit;
+}
+
+a:focus{
+  color:green;
+}
+
+a:active{
+  color:red;
+}
+
+p {
+    padding-left: 20px
+    padding-right: 20px;  
+}
+
+.btn {
+  background-color: none;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: darkblue;
+}
+
+.esplink {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#esplink2 {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cvlink {
+    text-align:center;
+}
+
+.nav-bar {
+    color:#806070;
+}
+
+.article-hed {
+    max-width: 720px;
+    margin: auto;
+    font-size: 50px;
+}
+
+.hed {
+    font-size: 60px;
+    font-style: thin;
+    display: flexbox;
+}
+
+#newsomehed {
+    max-width: 700px;
+    font-size: 40px;
+}
+
+.subhed {
+    max-width: 700px;
+    margin: auto;
+    text-decoration: bold;
+    font-size: +2;
+    text-decoration: bold;
+    padding-left: 10px
+    padding-right: 10px;
+}
+
+.copy {
+    max-width: 700px;
+    padding-left: 20px
+    padding-right: 20px;
+}
+
+.indentgraf {
+    padding-left: 50px;
+}
+
+.hyperlink {
+    color: blue;
+    text-decoration: underline;
+}
+
+.dek {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333;
+}
+
+
+
+.byline {
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #666;
+}
+
+.byline .name {
+    font-weight: 700;
+    padding: 0 10px 0 0;
+}
+
+.pub-date {
+    font-family: "Roboto Slab", serif;
+    text-transform: lowercase;
+}
+
+#photo {
+    width: 175px;
+    display: wrap;
+    float: left;
+    padding-right: 20px;
+
+}
+
+.photo {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-caption {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    color: #333;
+}
+
+.article-copy {
+    max-width: 600px;
+    margin: 25px auto 25px auto;
+}
+
+.copy {
+    margin: 0 auto 20px auto;
+    color: #222;
+}
+
+.related-stories {
+    max-width: 600px;
+    margin: 20px auto 20px auto;
+}
+
+.related-stories ul li {
+    margin: 0 0 15px 0;
+}
+
+.read-more {
+    font-size: 24px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
